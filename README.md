@@ -39,3 +39,45 @@ Machine Learning project to use satellite imagery to analyze and predict forest 
 
 
 
+## Strukturwunsch: 
+ML_Project/
+│
+├── data/                      # Datenverzeichnis
+│   ├── raw/                   # Rohdaten (unbearbeitet)
+│   ├── processed/             # Vorverarbeitete Daten
+│   ├── AnimalFaces/           # Spezifische Projektdaten (AnimalFaces)
+│   ├── Wildfire/              # Spezifische Projektdaten (Wildfire)
+│   └── Wildfire_test/         # Testdaten (Wildfire)
+│
+├── notebooks/                 # Jupyter Notebooks für Exploratory Data Analysis (EDA)
+│   ├── 01_data_exploration.ipynb
+│   └── 02_model_training.ipynb
+│
+├── models/                    # Gespeicherte Modelle und Checkpoints
+│   ├── saved_model/           # Exportierte Modelle
+│   └── model_checkpoints/     # Trainings-Checkpoints
+│
+├── src/                       # Quellcode des Projekts
+│   ├── __init__.py            # Markiert src als Paket
+│   ├── data_processing.py     # Datenvorverarbeitung (z.B. Cleaning, Augmentation)
+│   ├── model_training.py      # Model-Trainingslogik
+│   ├── model_evaluation.py    # Evaluierungslogik
+│   └── utils.py               # Hilfsfunktionen
+│
+├── tests/                     # Tests für Code und Modelle
+│   ├── test_data_processing.py
+│   ├── test_model_training.py
+│   └── test_utils.py
+│
+├── scripts/                   # Python-Skripte für Automatisierung
+│   ├── train_model.py         # Trainings-Startskript
+│   ├── evaluate_model.py      # Evaluations-Startskript
+│   └── predict.py             # Skript zur Vorhersage
+│
+├── requirements.txt           # Python-Abhängigkeiten
+├── README.md                  # Projektbeschreibung und Anweisungen
+├── LICENSE                    # Lizenzdatei
+├── .gitignore                 # Dateien, die Git ignorieren soll
+└── Überprüfung.py             # Falls benötigt, integrieren oder neu benennen
+
+
