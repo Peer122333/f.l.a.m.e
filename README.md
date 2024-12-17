@@ -40,6 +40,7 @@ Machine Learning project to use satellite imagery to analyze and predict forest 
 
 
 ## Strukturwunsch: 
+`
 ML_Project/
 │
 ├── data/                      # Datenverzeichnis
@@ -79,5 +80,4 @@ ML_Project/
 ├── LICENSE                    # Lizenzdatei
 ├── .gitignore                 # Dateien, die Git ignorieren soll
 └── Überprüfung.py             # Falls benötigt, integrieren oder neu benennen
-
-
+`
