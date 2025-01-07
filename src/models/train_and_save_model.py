@@ -73,7 +73,7 @@ else:
     )
     
     class_names = train_dataset.class_names # Klassenamen extrahieren, Klassennamen sind die Namen der Unterordner
-    log.info("Klassen:", class_names)
+    log.info("Dataset Klassen Training und Validation erstellt:", class_names)
 
     # Modell erstellen
     model = Sequential([
