@@ -5,6 +5,16 @@ from tensorflow.keras.utils import image_dataset_from_directory
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 
+# Hilfsfunktionen für die Pfadmanipulation
+####################################################
+# Absoluter Pfad zu diesem Skript
+current_file_path = os.path.abspath(__file__)
+# Projekt-Root relativ zu diesem Skript
+project_root = os.path.dirname(current_file_path)
+print("Projekt-Root:", project_root)
+####################################################
+
+
 # Datenverzeichnis
 dataset_dir = "Wildfire"  # Passe den Pfad an
 
