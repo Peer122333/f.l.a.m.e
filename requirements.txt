@@ -1,4 +1,3 @@
-tensorflow-metal
 tensorflow
 altair
 beautifulsoup4
@@ -35,5 +34,4 @@ widgetsnbextension
 xlrd
 rpyc
 opencv-python
-keras
 cloud-tpu-client

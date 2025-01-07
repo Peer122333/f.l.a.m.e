@@ -1,6 +1,9 @@
 import os
 import tensorflow as tf
-from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Conv2D, Flatten, Dropout
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 from sklearn.metrics import classification_report
 
